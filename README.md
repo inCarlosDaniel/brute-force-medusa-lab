@@ -30,10 +30,10 @@ Projeto realizado exclusivamente para fins educacionais.
 
 # Ambiente Utilizado
 
-| Máquina | Sistema Operacional | IP |
+| Máquina | Sistema Operacional | 
 |---|---|---|
-| Máquina atacante | Kali Linux | 192.168.56.101 |
-| Máquina vulnerável | Metasploitable 2 | 192.168.56.102 |
+| Máquina atacante | Kali Linux | 
+| Máquina vulnerável | Metasploitable 2 
 
 Rede utilizada:
 - Host-Only Adapter (VirtualBox)

